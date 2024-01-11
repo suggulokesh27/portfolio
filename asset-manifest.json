@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.84a0ed70.css",
+    "main.js": "/portfolio/static/js/main.b3d60257.js",
+    "static/media/foodiesExpress.png": "/portfolio/static/media/foodiesExpress.4dec1d8b6fdf93273998.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.46c873cc9ac2c70b3507.png",
+    "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.bdc80dfc80f3a4c51b86.png",
+    "static/media/auth.png": "/portfolio/static/media/auth.dd3037fcd91e89ae6d83.png",
+    "static/media/Lokesh.png": "/portfolio/static/media/Lokesh.7b1993b480202660295a.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/ham-menu.svg": "/portfolio/static/media/ham-menu.67af819cd8b016553cfe5e91fc4626d9.svg",
+    "static/media/ham-menu-close.svg": "/portfolio/static/media/ham-menu-close.26f09e36db4c8500ff4b8c90e24d5f7a.svg",
+    "main.84a0ed70.css.map": "/portfolio/static/css/main.84a0ed70.css.map",
+    "main.b3d60257.js.map": "/portfolio/static/js/main.b3d60257.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84a0ed70.css",
+    "static/js/main.b3d60257.js"
+  ]
+}
