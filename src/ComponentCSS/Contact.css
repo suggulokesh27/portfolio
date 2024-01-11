@@ -1,0 +1,36 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container-details {
+    margin-bottom: 20px;
+    p {
+      color: white;
+    }
+  }
+  
+  h4 {
+    color: white;
+  }
+  
+  .container-social-headers {
+    margin-bottom: 20px;
+  }
+  
+  .container-social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .container-social svg {
+    width: 30px;
+    height: 30px;
+    color: #3498db;
+    cursor: pointer;
+  }
+  

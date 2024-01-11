@@ -1,0 +1,136 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    padding: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.about-heading {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-heading h1 {
+    margin-top: 50px;
+    position: relative;
+}
+
+.about-heading h1::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+    width: 30px;
+    border-bottom: 10px solid rgb(85, 2, 118);
+    border-radius: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-heading p {
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.about-about-matter {
+    position: relative;
+}
+
+.about-about-matter h3 {
+    font-size: xx-large;
+}
+
+.about-about-matter p {
+    font-size: larger;
+    font-weight: 400;
+}
+
+.about-about-matter a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 10px;
+    background-color: rgb(7 146 196 / 96%);
+    text-decoration: none;
+    width: 100px;
+    padding: 10px;
+    color: white;
+}
+
+.about-about-matter a:hover {
+    transform: translateY(-2px);
+    color: black;
+    border: 1px solid white;
+}
+
+.about-skill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+}
+
+.about-skill-matter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.about-skill-matter h5 {
+    padding: 10px;
+    background-color: rgb(173, 132, 78);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.about-skill-matter h5:hover {
+    transform: translateY(-2px);
+    color: black;
+    border: 1px solid white;
+
+}
+
+@media (max-width: 900px) {
+    .about-about {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .about-skill{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-heading {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,13 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+    height: 200px;
+    padding: 10px;
+    font-size: xx-large;
+    background-color: aliceblue;
+    justify-content: space-around;
+    border-radius: 0 10px;
+    cursor: pointer;
+}

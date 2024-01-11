@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(115, 111, 111);
+    padding: 10px 20px; 
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.menu-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: none;
+}
+
+.menu-button img {
+    width: 25px;
+    height: 25px;
+    margin: 6px 0;
+    background-color: aliceblue;
+    padding: 2px;
+    border-radius: 5px;
+}
+.navLink img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.navLink{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.navbar a:hover {
+    color: rgb(2, 43, 82);
+    transition: color 0.5s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        width: auto;
+        display: flex;
+        position: fixed;
+        z-index: 999;
+    }
+    .menu-button {
+        display: block;
+        padding-right: 10px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        text-align: end;
+        top: 50px;
+        left: 0;
+        right: 0;
+        background-color: rgb(115, 111, 111);
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+    .nav-links.open a{
+        border-bottom: 1px solid white;
+        padding: 20px;
+    }
+}
