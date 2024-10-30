@@ -30,22 +30,29 @@ This is my personal **portfolio application** built to showcase my skills, proje
    ```bash
    npm start
 
-📂 Project Structure
-/src/components: Contains reusable components for the portfolio sections.
-/src/assets: Stores images and icons.
-/src/styles: Contains CSS files to style the application.
-📸 Screenshots
+## 📂 Project Structure
+
+- **/src/components**: Contains reusable components for the portfolio sections.
+- **/src/assets**: Stores images and icons.
+- **/src/styles**: Contains CSS files to style the application.
+
+## 📸 Screenshots
+
 Add screenshots or a GIF here to showcase the portfolio’s look and feel.
 
-👋 About Me
-As a fresher with a passion for web development, I’m constantly learning and eager to grow. This portfolio is an example of my skills and dedication to improving as a developer.
+## 👋 About Me
 
-📫 Contact
-Email: suggulokesh27@gmail.com
-LinkedIn: Lokesh Suggu
-🔧 Future Enhancements
+As a **fresher** with a passion for web development, I’m constantly learning and eager to grow. This portfolio is an example of my skills and dedication to improving as a developer.
+
+## 📫 Contact
+
+- **Email**: [suggulokesh27@gmail.com](mailto:suggulokesh27@gmail.com)
+- **LinkedIn**: [Lokesh Suggu](https://www.linkedin.com/in/suggulokesh27)
+
+## 🔧 Future Enhancements
+
 Potential improvements could include:
 
-Adding a blog or articles section to share insights.
-Implementing dark/light mode for better accessibility.
-Integrating backend support for managing project data dynamically.  
+- Adding a blog or articles section to share insights.
+- Implementing dark/light mode for better accessibility.
+- Integrating backend support for managing project data dynamically.
