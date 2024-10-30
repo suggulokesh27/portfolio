@@ -1,6 +1,7 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import '../ComponentCSS/Home.css'
+import './Home.css'
+import Sidebar from "../Sidebar/Sidebar";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
                     A Frontend focused Web Developer building the Frontend of
                      Websites and Web Applications that leads to the success of the overall product
                 </p>
-                <a to="project" onClick={()=> scrollToSection("project")}>Project</a>
+                <Link to="project" onClick={()=> scrollToSection("project")}>Project</Link>
             </div>
         </div>
     )

@@ -2,7 +2,7 @@ import React from "react";
 import {BsLinkedin} from "react-icons/bs"
 import {BsGithub} from "react-icons/bs"
 import { SiLeetcode } from "react-icons/si";
-import '../ComponentCSS/Sidebar.css'
+import './Sidebar.css'
 
 const Sidebar = () => {
 

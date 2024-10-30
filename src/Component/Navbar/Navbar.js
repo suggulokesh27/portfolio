@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import Lokesh from '../Assest/Lokesh.png'
-import '../ComponentCSS/Navbar.css';
-import hmLog from '../Assest/ham-menu.svg';
-import closeLog from '../Assest/ham-menu-close.svg'
+import Lokesh from '../../Assest/Lokesh.png'
+import './Navbar.css';
+import hmLog from '../../Assest/ham-menu.svg';
+import closeLog from '../../Assest/ham-menu-close.svg'
 
 
 const Navbar = () => {

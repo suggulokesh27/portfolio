@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
-import '../ComponentCSS/Dashboard.css'
-import Home from './Home';
-import About from './About';
-import Project from './Project';
-import Contact from './Contact';
+import Navbar from '../Navbar/Navbar';
+import Home from '../Home/Home';
+import About from '../About/About';
+import Project from '../Projects/Project';
+import Contact from '../Contact/Contact';
+import "./Dashboard.css"
+
 
 const Dashboard = () => {
     return (

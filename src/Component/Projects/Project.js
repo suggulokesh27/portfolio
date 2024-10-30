@@ -1,9 +1,9 @@
 import React from "react";
-import "../ComponentCSS/Project.css"
-import tictactoe from "../Assest/tictactoe.png"
-import foodiesExpress from "../Assest/foodiesExpress.png"
-import auth from "../Assest/auth.png"
-import portfolio from "../Assest/portfolio.png"
+import "./Project.css"
+import tictactoe from "../../Assest/tictactoe.png"
+import foodiesExpress from "../../Assest/foodiesExpress.png"
+import auth from "../../Assest/auth.png"
+import portfolio from "../../Assest/portfolio.png"
 
 const Project = () => {
     return (
